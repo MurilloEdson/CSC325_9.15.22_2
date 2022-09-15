@@ -3,6 +3,7 @@ package com.mycompany.csc325_jr_2;
 public class Student 
 {
     String name;
+    int grade;
 
     public String getName() {
         return name;
@@ -10,6 +11,14 @@ public class Student
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public int getGrade() {
+        return grade;
+    }
+
+    public void setGrade(int grade) {
+        this.grade = grade;
     }
     
 }
